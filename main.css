@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1440px;
+
+}
+#ml{
+    position: relative;
+    left: 550px;
+    height: 600px;
+}
+#logo-filme{
+    position: relative;
+    left: 90px;
+    
+}
+.main-info p,button,a,#logo-filme{
+    position: relative;
+    top: -270px;
+}
+.main-info p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    width: 600px;
+    line-height: 25px;
+    padding: 30px;
+    left: 80px;
+}
+
+
+.main-info a,button{
+    
+    padding: 10px 0px;
+    border-radius: 3px;
+   
+}
+.main-info button{
+    cursor: pointer;
+    padding: 10px 5px;
+    position: relative;
+    left: 150px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #14B02D;
+    
+}
+.main-info  a{
+    text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
+    left: 110px;
+    
+    background-color: #C51212;
+    color: white;   
+}
+
