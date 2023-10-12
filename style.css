@@ -18,8 +18,10 @@
     
   }
   header{
+    
    padding-top: 30px;
    min-width: 1440px;
+   
    
   }
   header a{
@@ -63,7 +65,7 @@
     height: inherit;
     position: fixed;
     inset: 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.920), rgba(0, 0, 0, 0.371), rgba(0, 0, 0, 0.920));
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.495), rgba(0, 0, 0, 0.955));
  }
  #app{
     display: flex;

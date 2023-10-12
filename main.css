@@ -4,15 +4,16 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    width: 100%;
+    width: 100vw;
     max-width: 1440px;
+    
 
 }
 #ml{
+    padding-top: 20px;
     position: relative;
-    left: 550px;
-    height: 600px;
+    left: 570px;
+    height: 610px;
 }
 #logo-filme{
     position: relative;
@@ -21,43 +22,47 @@ main{
 }
 .main-info p,button,a,#logo-filme{
     position: relative;
-    top: -270px;
+    top: -260px;
 }
 .main-info p{
-    letter-spacing: 1px;
+    text-align: justify;
     font-size: 18px;
     color: white;
     position: relative;
-    width: 600px;
-    line-height: 25px;
-    padding: 30px;
+    width: 650px;
+    line-height: 1.6em;
+    padding: 30px 30px 15px 30px;
     left: 80px;
 }
+.bnt{
 
-
-.main-info a,button{
     
-    padding: 10px 0px;
+    margin-top: 20px;
+    transform: skew(-10deg);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.bnt a{
+    text-transform: uppercase;
     border-radius: 3px;
-   
-}
-.main-info button{
-    cursor: pointer;
-    padding: 10px 5px;
+    padding: 10px 60px;
     position: relative;
-    left: 150px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid #14B02D;
-    
-}
-.main-info  a{
-    text-decoration: none;
-    padding: 10px 10px;
-    position: relative;
-    left: 110px;
-    
+    left: -50px;
     background-color: #C51212;
-    color: white;   
+    border: 2px solid #C51212;
+    
 }
-
+.bnt button{
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 2px solid #14B02D;
+    color: white;
+    background: none;
+    padding: 10px 50px;
+    position: relative;
+    left: -10px;
+}
